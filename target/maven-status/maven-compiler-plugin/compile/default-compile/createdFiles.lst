@@ -1,0 +1,11 @@
+br\com\cadastro_jsf\bean\UsuarioBean.class
+br\com\cadastro_jsf\model\TelefoneUser.class
+br\com\cadastro_jsf\dao\DaoUsuario.class
+br\com\cadastro_jsf\repository\IDaoUsuarioImpl.class
+br\com\cadastro_jsf\dao\DaoTelefones.class
+br\com\cadastro_jsf\dao\Dao.class
+br\com\cadastro_jsf\model\Usuario.class
+br\com\cadastro_jsf\bean\TelefoneBean.class
+br\com\cadastro_jsf\repository\IDaoUsuario.class
+br\com\cadastro_jsf\service\UsuarioService.class
+br\com\cadastro_jsf\filter\FilterAutenticacao.class

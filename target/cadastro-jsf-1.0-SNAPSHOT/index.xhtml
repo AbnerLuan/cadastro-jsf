@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<title>Tela de Login</title>
+</h:head>
+<h:body>
+	<h:form id="formLogin">
+		<p:messages id="messages" showDetail="true" showSummary="true" />
+		<p:panelGrid columns="2">
+			<f:facet name="header">Tela de Login</f:facet>
+			<p:outputLabel for="nome" value="Nome Usuario:" />
+			<p:inputText id="nome" value="#{usuarioBean.usuario.nome}" />
+
+			<p:outputLabel for="senha" value="Senha:" />
+			<p:password id="senha" value="#{usuarioBean.usuario.senha}" />
+
+			<p:outputLabel value="" />
+			<p:commandButton value="Logar" action="#{usuarioBean.logar}"
+				ajax="false" />
+		</p:panelGrid>
+
+	</h:form>
+
+</h:body>
+</html>
+
