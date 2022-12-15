@@ -14,7 +14,7 @@ os demais campos são preenchidos automaticamente consumindo um webservice do si
 -MySQL;
 -Tomcat.
 
-Esse projeto pode ser acessado para visualização e testes [clicando aqui](https://abner1482.c41.integrator.host/cadastro-jsf/) e logando com o usuário admin e a senha admin2022
+<!-- Esse projeto pode ser acessado para visualização e testes [clicando aqui](https://abner1482.c41.integrator.host/cadastro-jsf/) e logando com o usuário admin e a senha admin2022 -->
 
 ## :hammer: Funcionalidades do projeto (CRUD)
 
